@@ -8,20 +8,21 @@
   </head>
   <body>
     <div class="container">
-      <select class="duration" name="">
+      <!-- <select class="duration" name="">
         <option value="1">1 minute</option>
         <option value="2">5 minutes</option>
         <option value="3">10 minutes</option>
 
-      </select>
+      </select> -->
 
         <label id="time">---- : ----</label>
         <br>
         <br>
         <div class="buttons">
-        <button onClick="myTimer = program(25).start()" type="button" name="button" id="start">start</button>
-        <button type="button" name="button" id="stop">stop</button>
-        <button type="button" name="button" id="reset">reset</button>
+
+        <button onClick=" program(25).timing()" type="button" name="button" id="start">start</button>
+        <button  onClick="program(25).pause()" type="button" name="button" id="stop">stop</button>
+        <button onClick=" program(25).reset()" type="button" name="button" id="reset">reset</button>
           </div>
     </div>
     <div id="qunit"></div>
