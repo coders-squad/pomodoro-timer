@@ -1,0 +1,17 @@
+.container{
+  max-width: 1170px;
+  height: 600px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.buttons{
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -112px;
+}
