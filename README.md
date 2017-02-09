@@ -60,7 +60,7 @@ t.ok(window.program,"it exists");
 While I already add function program there then the test should pass
 
 
-![alt text](https://files.gitter.im/Coders-Squade/Lobby/fN5c/Screenshot-from-2017-02-09-09-53-16.png" alt=""> "Logo Title Text 1")
+![alt text]("https://files.gitter.im/Coders-Squade/Lobby/fN5c/Screenshot-from-2017-02-09-09-53-16.png") 
 
 
 # Why to use TDD:
