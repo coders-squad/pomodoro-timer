@@ -25,7 +25,7 @@ And the HTML structure we need:
 ```
 
 Most of those are fairly explanatory. If not, don’t worry, once we run an actual test it should become more apparent. Before we write our actual code, lets set up a test test just to make sure it works. Load up instagramwrapper_tests.js (I’ll refer to this as just “the tests file” from now on) and put in:
-```js
+```javascript
 function saysHi(name) {
         return "Hi, " + name;
 };
@@ -37,7 +37,7 @@ equal(sayHi("Jack"), "Hi, Jack", "function outputs string correctly")
 ```
 You can see I define a simple function and then run tests on it, expecting sayHi("Jack") to equal "Hi, Jack". If you run it however, we get a failure:
 
-```js
+```javascript
 saysHi() (1, 0, 1)
 Died on test #1: sayHi is not defined
 Source: at Object.<anonymous> (http://instagram.jsp/test/instagramwrapper_tests.js:6:10)
@@ -49,7 +49,7 @@ Run it again, and it passes!
 
 Now, for our first real test:
 
-```js
+```javascript
 test("check if the function exists",function(t){
 t.ok(window.program,"it exists");
 });
