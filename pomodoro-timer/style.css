@@ -1,0 +1,40 @@
+.container{
+  max-width: 1170px;
+  height: 600px;
+  background-color: #CCAFCE ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 42px;
+}
+
+#time {
+    font-size: 50px;
+      margin-top: 156px;
+}
+
+#start {
+    font-size: 30px;
+}
+
+#stop {
+    font-size: 30px;
+}
+
+#reset {
+    font-size: 30px;
+}
+
+.buttons{
+  margin-top: 367px;
+justify-content: center;
+align-items: center;
+margin-left: -222px;
+}
+
+p {
+    font-size: 50px;
+    margin-right: -308px;
+  margin-top: -100px;
+}
