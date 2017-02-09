@@ -1,7 +1,6 @@
 
 
 
-![alt text]("https://github.com/coders-squad/pomodoro-timer/blob/master/STEAKHOUSE_1_.png")
 ![alt text](https://github.com/coders-squad/pomodoro-timer/blob/master/STEAKHOUSE_1_.png)
 
 
@@ -62,7 +61,7 @@ t.ok(window.program,"it exists");
 While I already add function program there then the test should pass
 
 
-![alt text]("https://files.gitter.im/Coders-Squade/Lobby/fN5c/Screenshot-from-2017-02-09-09-53-16.png") 
+![alt text](https://github.com/coders-squad/pomodoro-timer/blob/master/Screenshot%20from%202017-02-09%2009-53-16.png?raw=true)
 
 
 # Why to use TDD:
