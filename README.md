@@ -1,5 +1,5 @@
 
-[logo]: //cdn.shopify.com/s/files/1/0257/1675/t/147/assets/pomodoro-getstarted.jpg "Logo Title Text 2"
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ### You probably know that testing is good, but the first hurdle to overcome when trying to write unit tests for client-side code is the lack of any actual units; JavaScript code is written for each page of a website or each module of an application and is closely intermixed with back-end logic and related HTML. In the worst case, the code is completely mixed with HTML, as inline events handlers.
 
