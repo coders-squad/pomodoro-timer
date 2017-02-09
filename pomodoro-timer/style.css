@@ -11,6 +11,7 @@
 
 #time {
     font-size: 50px;
+      margin-top: 156px;
 }
 
 #start {
@@ -26,8 +27,13 @@
 }
 
 .buttons{
-  margin-top: 185px;
-  justify-content: center;
-  align-items: center;
-  margin-left: -222px;
+  margin-top: 367px;
+justify-content: center;
+align-items: center;
+margin-left: -222px;
+}
+
+p {
+    font-size: 50px;
+    margin-right: -308px;
 }
