@@ -29,7 +29,6 @@ test("Timer should start at 25:00 minutes ",function(t){
 document.getElementById('stop').onclick = function(){
 	test("Method pause should stop timing",function(t){
 	  var Timer = program(25);
-	  Timer.timing();
 	  var done1 = t.async();
 	  var done  = t.async();
 	  setTimeout(function() {
