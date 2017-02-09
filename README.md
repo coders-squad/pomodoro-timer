@@ -1,6 +1,5 @@
 
-![alt text](//cdn.shopify.com/s/files/1/0257/1675/t/147/assets/pomodoro-getstarted.jpg?2830237113431392721" alt=""> "Logo Title Text 1")
-
+![alt text](//cdn.shopify.com/s/files/1/0257/1675/t/147/assets/pomodoro-getstarted.jpg?2830237113431392721" alt=""> 
 
 ### You probably know that testing is good, but the first hurdle to overcome when trying to write unit tests for client-side code is the lack of any actual units; JavaScript code is written for each page of a website or each module of an application and is closely intermixed with back-end logic and related HTML. In the worst case, the code is completely mixed with HTML, as inline events handlers.
 
@@ -82,7 +81,7 @@ Another reason is to actually enforce writing the tests. Often when people do un
 Writing these tests first could mean that you don't need to launch the program in a debugging environment (slow — especially for larger projects) to test if a few small things work. Of course there's no excuse for not doing so before committing changes.
 Convincing yourself or other people to write the tests first may be difficult. You may have better luck getting them to write both at the same time which may be just as beneficial.
 
-![alt text](//cdn.shopify.com/s/files/1/0257/1675/t/147/assets/pomodoro-getstarted.jpg?2830237113431392721" alt=""> "Logo Title Text 1")
+![alt text](//cdn.shopify.com/s/files/1/0257/1675/t/147/assets/pomodoro-getstarted.jpg?2830237113431392721" alt=""> 
 
 # What is Pomodoro Timer & How It works for developers :
 ---
