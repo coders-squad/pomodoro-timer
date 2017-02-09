@@ -17,6 +17,14 @@
     font-size: 30px;
 }
 
+#stop {
+    font-size: 30px;
+}
+
+#reset {
+    font-size: 30px;
+}
+
 .buttons{
   margin-top: 150px;
   justify-content: center;
