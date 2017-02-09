@@ -1,21 +1,25 @@
 function program(initialInput) {
 
 var inputTime = new Date();
-var a_time = {
-  minutes : initialInput,
-  seconds :0
-}
 
 var  start;
-var run = true;
+var run=true ;
 var time;
+
+var a_time = {
+  minutes : initialInput,
+  seconds :00
+}
+
+
 
 var programInterface ={
 
 timing : function() {
       a_time.seconds = 60;
+
     if (run){
-  //  console.log("Timeing");
+    console.log(a_time);
     start = setInterval( function(){
     if(a_time.seconds > 0 && a_time.minutes > 0 ){
     //  console.log("Timeing seconds");
@@ -36,7 +40,7 @@ timing : function() {
     }},
 
 gettime: function(){
-  console.log(a_time);
+//  console.log(a_time);
   return a_time;
 },
 
@@ -45,19 +49,17 @@ pause : function(){
   time = a_time.minutes + " : " + a_time.seconds;
   clearInterval(start);
 
+//document.getElementById('time').innerHTML = time;
+
 },
 
 reset : function() {
-
-  // a_time.minutes= initialInput;
-  // a_time.seconds= 0;
-  // //pause();
   run = false;
        clearInterval(start);
        a_time.minutes = initialInput;
        a_time.seconds = 0;
        time = a_time.minutes + " : " + a_time.seconds;
-       pause();
+      // pause();
        document.getElementById('time').innerHTML = time;
 }
 
