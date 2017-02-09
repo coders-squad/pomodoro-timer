@@ -1,23 +1,19 @@
-function program(initialInput) {
-
-var inputTime = new Date();
-
 var  start;
 var run=true ;
 var time;
+
+function program(initialInput) {
 
 var a_time = {
   minutes : initialInput,
   seconds :00
 }
 
-
-
 var programInterface ={
 
 timing : function() {
-      a_time.seconds = 60;
-
+      a_time.seconds = 00;
+      run = true;
     if (run){
     console.log(a_time);
     start = setInterval( function(){
@@ -62,14 +58,7 @@ reset : function() {
       // pause();
        document.getElementById('time').innerHTML = time;
 }
-
-
-
 }
-
-
-
-
 
 return programInterface;
 }
