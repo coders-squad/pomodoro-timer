@@ -1,12 +1,12 @@
 .container{
   max-width: 1170px;
   height: 600px;
-  background-color: lightgray;
+  background-color: #CCAFCE;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 30px;
+  margin-left: 42px;
 }
 
 #time {
