@@ -9,8 +9,12 @@
   margin-left: 30px;
 }
 
-#time{
-  
+#time {
+    font-size: 50px;
+}
+
+#start {
+    font-size: 30px;
 }
 
 .buttons{
