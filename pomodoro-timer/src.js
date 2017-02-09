@@ -57,7 +57,7 @@ reset : function() {
   run = false;
        clearInterval(start);
        a_time.minutes = initialInput;
-       a_time.seconds = 0;
+       a_time.seconds = "00";
        time = a_time.minutes + " : " + a_time.seconds;
       // pause();
        document.getElementById('time').innerHTML = time;
