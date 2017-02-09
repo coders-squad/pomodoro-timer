@@ -12,17 +12,16 @@
         <option value="1">1 minute</option>
         <option value="2">5 minutes</option>
         <option value="3">10 minutes</option>
-
       </select> -->
 
-        <p id="time"></p>
+        <label id="time">---- : ----</label>
         <br>
         <br>
         <div class="buttons">
 
-        <button onClick=" program(25).timing();" type="button" name="button" id="start">start</button>
-        <button  onClick="program(25).pause();" type="button" name="button" id="stop">stop</button>
-        <button onClick=" program(25).reset();" type="button" name="button" id="reset">reset</button>
+	       <button id="start" onclick="program(25).timing();">start</button>
+		<button id="stop" onclick="program(25).pause();">Stop</button>
+		<button id="reset" onclick="program(25).reset();">Reset</button>
           </div>
     </div>
     <div id="qunit"></div>
