@@ -62,7 +62,7 @@ document.getElementById('reset').onclick = function(){
 
 	  setTimeout(function() {
 
-	    t.deepEqual( Timer.gettime(),{minutes:25 , seconds:0},"reset time");
+	    t.deepEqual( Timer.gettime(),{minutes:25 , seconds:"00"},"reset time");
 
 	    ok( true, "timing reset" );
 	    done();
