@@ -1,8 +1,12 @@
+
 var  start;
 var run=true ;
 var time;
 
 function program(initialInput) {
+
+
+
 
 var a_time = {
   minutes : initialInput,
@@ -58,7 +62,14 @@ reset : function() {
       // pause();
        document.getElementById('time').innerHTML = time;
 }
+
+
+
 }
+
+
+
+
 
 return programInterface;
 }
