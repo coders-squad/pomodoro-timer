@@ -56,9 +56,10 @@ t.ok(window.program,"it exists");
 ```
 ## So the test should make sure if function program is there in src.js or NOT if not the test will fail.
 While I already add function program there then the test should pass
+![alt text](https://files.gitter.im/Coders-Squade/Lobby/fN5c/Screenshot-from-2017-02-09-09-53-16.png "Logo Title Text 1")
 
 
-![alt text](https://files.gitter.im/Coders-Squade/Lobby/fN5c/Screenshot-from-2017-02-09-09-53-16.png" alt=""> "Logo Title Text 1")
+
 
 
 # Why to use TDD:
@@ -81,7 +82,8 @@ Another reason is to actually enforce writing the tests. Often when people do un
 Writing these tests first could mean that you don't need to launch the program in a debugging environment (slow — especially for larger projects) to test if a few small things work. Of course there's no excuse for not doing so before committing changes.
 Convincing yourself or other people to write the tests first may be difficult. You may have better luck getting them to write both at the same time which may be just as beneficial.
 
-![alt text](//cdn.shopify.com/s/files/1/0257/1675/t/147/assets/pomodoro-getstarted.jpg?2830237113431392721" alt=""> 
+![alt text](http://cdn.shopify.com/s/files/1/0257/1675/t/147/assets/pomodoro-getstarted.jpg?2830237113431392721 "Logo Title Text 1")
+
 
 # What is Pomodoro Timer & How It works for developers :
 ---
