@@ -84,7 +84,7 @@ Another reason is to actually enforce writing the tests. Often when people do un
 Writing these tests first could mean that you don't need to launch the program in a debugging environment (slow — especially for larger projects) to test if a few small things work. Of course there's no excuse for not doing so before committing changes.
 Convincing yourself or other people to write the tests first may be difficult. You may have better luck getting them to write both at the same time which may be just as beneficial.
 
-![alt text](/https://github.com/coders-squad/pomodoro-timer/blob/master/STEAKHOUSE_1_.png" alt=""> 
+![alt text] (https://github.com/coders-squad/pomodoro-timer/blob/master/pomodoro-getstarted.jpg?raw=true)
 
 # What is Pomodoro Timer & How It works for developers :
 ---
